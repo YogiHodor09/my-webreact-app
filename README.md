@@ -2,6 +2,18 @@
 
 npx create-react-app <project-name>
 
+# After run cmd :-
+
+npm install -- To download package.json libs in local system.
+npm start -- starts dev server watch files and changes.
+
+# O/P :-
+
+# You can now view my-web-react-app in the browser.
+
+Local: http://localhost:3000
+On Your Network: http://192.168.43.209:3000
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
