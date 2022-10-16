@@ -1,7 +1,9 @@
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
-import Card from "./Card";
-function ExpenseItem(props) {
+import React from "react";
+import Card from "../UI/Card";
+
+const ExpenseItem = (props) => {
   return (
     <Card className="expense-item">
       {/* Must have only one root element eg:- Inside parent div all other childs will come */}
@@ -12,6 +14,6 @@ function ExpenseItem(props) {
       </div>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;
