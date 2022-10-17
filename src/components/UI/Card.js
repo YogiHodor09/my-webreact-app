@@ -1,9 +1,10 @@
-import "./Card.css";
+import React from 'react';
+
+import './Card.css';
 
 const Card = (props) => {
-  const classes =
-    "card " +
-    props.className; /* card <backspace> - to identify class name passed to card must be appended. eg:- card expenseItem*/
+  const classes = 'card ' + props.className;
+
   return <div className={classes}>{props.children}</div>;
 };
 
